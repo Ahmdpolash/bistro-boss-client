@@ -1,0 +1,24 @@
+.featured {
+    background: url("../../../assets/home/featured.jpg") center/cover; /* Adjust background properties as needed */
+    position: relative; /* Create a positioning context for absolute positioning */
+    color: white; /* Set text color to white */
+  }
+  
+  .featured::before {
+    content: ''; /* Create a pseudo-element for the overlay */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Set the overlay color and opacity */
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
